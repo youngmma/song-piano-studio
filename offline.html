@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2b2419">
+<title>Offline · Song Piano Studio</title>
+<style>
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+         background:#faf7f0; color:#2b2419;
+         font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif; }
+  .box { text-align:center; padding:32px; max-width:360px; }
+  .box svg { width:72px; height:72px; margin-bottom:16px; }
+  .box h1 { font-size:21px; margin:0 0 10px; }
+  .box p { font-size:15px; line-height:1.7; color:#5b5343; margin:0 0 10px; }
+  .box p.en { margin-bottom:20px; }
+  button { background:#2b2419; color:#faf7f0; border:0; border-radius:999px;
+           font-size:16px; font-weight:600; padding:13px 30px; cursor:pointer; min-height:50px; }
+</style>
+</head>
+<body>
+<div class="box">
+  <svg viewBox="0 0 512 512" aria-hidden="true">
+    <rect width="512" height="512" rx="112" fill="#2b2419"/>
+    <g fill="#c9a24d">
+      <ellipse cx="322" cy="196" rx="34" ry="26" transform="rotate(-18 322 196)"/>
+      <rect x="344" y="84" width="14" height="120" rx="7"/>
+      <path d="M358 84 q64 22 46 92 q-6 -44 -46 -56 Z"/>
+    </g>
+    <g>
+      <g fill="#faf7f0" stroke="#2b2419" stroke-width="10">
+        <rect x="96" y="300" width="40" height="120"/><rect x="136" y="300" width="40" height="120"/>
+        <rect x="176" y="300" width="40" height="120"/><rect x="216" y="300" width="40" height="120"/>
+        <rect x="256" y="300" width="40" height="120"/><rect x="296" y="300" width="40" height="120"/>
+        <rect x="336" y="300" width="40" height="120"/><rect x="376" y="300" width="40" height="120"/>
+      </g>
+      <g fill="#1c1712">
+        <rect x="122" y="300" width="26" height="70"/><rect x="162" y="300" width="26" height="70"/>
+        <rect x="242" y="300" width="26" height="70"/><rect x="282" y="300" width="26" height="70"/>
+        <rect x="322" y="300" width="26" height="70"/>
+      </g>
+    </g>
+  </svg>
+  <h1>인터넷 연결이 필요해요</h1>
+  <p>오프라인 상태입니다. 연결이 복구되면 페이지를 다시 열어 주세요.</p>
+  <p class="en">You are offline. Please reconnect and reopen the page.</p>
+  <button type="button" onclick="location.reload()">다시 시도 · Retry</button>
+</div>
+</body>
+</html>

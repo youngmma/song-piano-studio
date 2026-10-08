@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#2b2419"/>
+  <g transform="translate(51.2 51.2) scale(0.8)">
+    <!-- eighth note accent -->
+    <g fill="#c9a24d">
+      <ellipse cx="322" cy="196" rx="34" ry="26" transform="rotate(-18 322 196)"/>
+      <rect x="344" y="84" width="14" height="120" rx="7"/>
+      <path d="M358 84 q64 22 46 92 q-6 -44 -46 -56 Z"/>
+    </g>
+    <!-- piano keys -->
+    <g>
+      <g fill="#faf7f0" stroke="#2b2419" stroke-width="4">
+        <rect x="96" y="300" width="40" height="120" rx="4"/>
+        <rect x="136" y="300" width="40" height="120"/>
+        <rect x="176" y="300" width="40" height="120"/>
+        <rect x="216" y="300" width="40" height="120"/>
+        <rect x="256" y="300" width="40" height="120"/>
+        <rect x="296" y="300" width="40" height="120"/>
+        <rect x="336" y="300" width="40" height="120"/>
+        <rect x="376" y="300" width="40" height="120" rx="4"/>
+      </g>
+      <g fill="#1c1712">
+        <rect x="122" y="300" width="26" height="70" rx="3"/>
+        <rect x="162" y="300" width="26" height="70" rx="3"/>
+        <rect x="242" y="300" width="26" height="70" rx="3"/>
+        <rect x="282" y="300" width="26" height="70" rx="3"/>
+        <rect x="322" y="300" width="26" height="70" rx="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
